@@ -31,10 +31,23 @@ img{
     padding: 6px;
     box-sizing: border-box;
     position: absolute;
+    bottom: 240px;
     background: rgba(27, 27, 27, .5);
     color: white;
 }
 h1{
     margin: 10px;
     font-size: 40px;
+}
+p{
+    font-size: 20px;
+    margin: 20px;
+    visibility: hidden;
+    opacity: 0;
+}
+span{
+    font-weight: bold;
+}
+.card:hover{
+    cursor: pointer;
 }
